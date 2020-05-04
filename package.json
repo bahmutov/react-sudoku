@@ -6,7 +6,7 @@
   "scripts": {
     "precommit": "pretty-quick",
     "prepublishOnly": "yarn build",
-    "start": "node server.js",
+    "start": "react-scripts start",
     "start:dev": "node scripts/start.js",
     "build": "webpack --progress --config webpack.config.js --colors",
     "test": "node scripts/test.js --env=jsdom",
@@ -53,6 +53,7 @@
     "prettier": "^1.14.3",
     "pretty-quick": "^1.7.0",
     "react-dom": "^16.5.2",
+    "react-scripts": "3.4.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
